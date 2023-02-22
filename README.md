@@ -8,7 +8,7 @@ This is a mandatory 6th semester course for anyone who chooses to follow the Com
 
 We took this course during the academic year 2021-2022. That year only 2 exercises were given, each of which consisted of writing two tantamount programs, one in C++ and one in SML of New Jersey. We used C++ 11 and SMLNJ v110.99.2. Example input files can be found inside each exercise's folder
 
-### Exercise 1
+## Exercise 1
 A text, encrypted according to [ROTN cipher](https://en.wikipedia.org/wiki/Caesar_cipher), is given as input and the program decrypts it. Note that the number of positions the alphabet is rotated is unknown, so we make use of an entropy function in order to decrypt.
 #### 	For C++
 Compile the source code and run:
@@ -21,7 +21,7 @@ Run the sml binary in your shell and then type:
 - decrypt "input.txt";
 ```
 
-### Exercise 2
+## Exercise 2
 We are given N numbered cities and M paths which connect (some of) those cities. For each path we are also given the amount of gas required to make it through it. Let L be the reservoir capacity of a car. The program finds the minimum possible capacity L so that the car can be driven from any city to any other city. The input file must be in the following format:
 
 |input.txt|
